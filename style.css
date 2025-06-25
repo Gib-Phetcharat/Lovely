@@ -140,3 +140,64 @@ body::before {
         transform: translateY(-200px) scale(1.5);
     }
 }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        max-width: 100%;
+    }
+
+    p {
+        font-size: 28px;
+        max-width: 100%;
+    }
+
+    .message-box, .message-box1 {
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 30px;
+        max-width: 90%;
+    }
+
+    .message-box input {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .output {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .cute-img {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    .message-box {
+        font-size: 18px;
+    }
+
+    .output {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
+
