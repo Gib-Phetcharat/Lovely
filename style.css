@@ -140,64 +140,45 @@ body::before {
         transform: translateY(-200px) scale(1.5);
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     h1 {
-        font-size: 24px;
-        max-width: 100%;
+        font-size: 22px;
+        max-width: 90%;
+        padding: 10px;
     }
 
     p {
-        font-size: 28px;
-        max-width: 100%;
+        font-size: 22px;
+        max-width: 90%;
+        padding: 10px;
     }
 
     .message-box, .message-box1 {
-        font-size: 20px;
-        padding: 10px;
-        margin-top: 30px;
         max-width: 90%;
+        font-size: 18px;
+        padding: 10px;
+        margin-top: 20px;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     }
 
     .message-box input {
         width: 90%;
         font-size: 14px;
+        padding: 8px;
     }
 
     .output {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     button {
         font-size: 16px;
-        padding: 8px 16px;
-    }
-
-    .cute-img {
-        width: 100%;
-        max-width: 250px;
+        padding: 10px 20px;
+        max-width: 200px;
+        margin: 20px auto;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     }
 }
 
-@media (max-width: 480px) {
-    h1 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 24px;
-    }
-
-    .message-box {
-        font-size: 18px;
-    }
-
-    .output {
-        font-size: 18px;
-    }
-
-    button {
-        font-size: 14px;
-        padding: 6px 12px;
-    }
-}
 
