@@ -1,0 +1,142 @@
+h1{
+    color: rgb(0, 0, 0);
+    text-shadow: 10px 10px 10px rgb(0,0,0,0.5);
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    max-width: 200px;
+}
+
+p{
+    color: rgb(255, 37, 171);
+    text-shadow: 10px 10px 10px rgb(0,0,0,0.5);
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    max-width: 400px;
+    
+    
+}
+
+
+.message-box input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    position: relative;
+}
+
+.message-box button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF69B4;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+}
+
+.output {
+    margin-top: 20px;
+    color: #333;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;   
+}
+
+.message-box {
+    margin: 0 auto;
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    text-shadow: 10px 10px 10px rgb(0,0,0,0.5);
+    font-family: 'Pacifico', cursive;
+    margin-top: 50px;
+    background-color: #FFCCF9;
+    font-size: 30px;
+    max-width: 700px;
+    
+}
+.message-box1 {
+    margin: 0 auto;
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    font-family: 'Pacifico', cursive;
+    margin-top: 50px;
+    background-color: #FFCCF9;
+    font-size: 30px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #FFCCF9;
+    color: rgb(255, 37, 171);
+    font-family: 'Pacifico', cursive;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    text-shadow: 10px 10px 10px rgb(0,0,0,0.5);
+}
+
+
+body {
+    background-color: #FFF4F6;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 0;
+    
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://4kwallpapers.com/images/wallpapers/kawaii-unicorn-cute-1920x1080-10121.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+    opacity: 0.5; /* จางเฉพาะภาพพื้นหลัง */
+    z-index: -1;
+}
+.container {
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+}
+.cute-img {
+            width: 80%;
+            max-width: 300px;
+            margin-top: 20px;
+        }
+
+.emoji-heart {
+    position: fixed;
+    font-size: 50px;
+    animation: floatUp 2s ease-out forwards;
+    z-index: 9999;
+}
+
+@keyframes floatUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-200px) scale(1.5);
+    }
+}
